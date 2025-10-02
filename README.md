@@ -52,6 +52,7 @@ Este documento apresenta de forma resumida e organizada os principais **fluxos d
   4. Cliente troca `code` + `code_verifier` por **access token**.
   5. Cliente chama a API com `Bearer <access_token>`.
 * **Vantagem**: Proteção contra interceptação de código.
+* 🔗 **Exemplo prático**: [Projeto demonstrativo no GitHub](https://github.com/ramiralvesmelo/code-flow-pkce)
 
 ---
 
@@ -59,7 +60,6 @@ Este documento apresenta de forma resumida e organizada os principais **fluxos d
 
 * **Uso**: Apps confidenciais (backend com segredo seguro).
 * **Diferença**: Necessita `client_secret`.
-* 🔗 **Exemplo prático**: [Projeto demonstrativo no GitHub](https://github.com/ramiralvesmelo/code-flow-pkce)
 
 ---
 
