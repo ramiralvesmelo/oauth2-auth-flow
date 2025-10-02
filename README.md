@@ -1,6 +1,6 @@
 # 📘 Guia Detalhado dos Fluxos do OAuth 2.0
 
-Este documento apresenta de forma resumida e organizada os principais fluxos de autorização da framework **OAuth 2.0**, explicando seus usos, vantagens, limitações e boas práticas. Embora muitas vezes confundidos com **fluxos de autenticação**, é importante destacar que o OAuth 2.0 trata essencialmente de **autorização**, enquanto a autenticação de usuários é abordada pelo protocolo de autenticação **OpenID Connect (OIDC)**, uma extensão sobre o OAuth 2.0.
+Este documento apresenta de forma resumida e organizada os principais **fluxos de autorização do OAuth 2.0**, explicando seus usos, vantagens, limitações e boas práticas. Embora muitas vezes confundidos com **fluxos de autenticação**, é importante destacar que o OAuth 2.0 trata essencialmente de **autorização**, enquanto a autenticação de usuários é abordada pelo **OpenID Connect (OIDC)**, uma extensão sobre o OAuth 2.0.
 
 ---
 
@@ -59,6 +59,7 @@ Este documento apresenta de forma resumida e organizada os principais fluxos de 
 
 * **Uso**: Apps confidenciais (backend com segredo seguro).
 * **Diferença**: Necessita `client_secret`.
+* 🔗 **Exemplo prático**: [Projeto demonstrativo no GitHub](https://github.com/ramiralvesmelo/code-flow-pkce)
 
 ---
 
